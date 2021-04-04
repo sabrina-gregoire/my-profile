@@ -1,0 +1,112 @@
+/* colors and fonts */
+
+body{
+	background-color: rgb(236, 214, 187);
+	font-family: serif;
+	text-align: center;	
+}
+
+p {
+	font-size: 20px;
+	font-weight: 600;
+    letter-spacing: 1px;
+	color: rgb(57, 33, 4);
+}
+
+a {
+	color: red;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bolder;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: green;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}	
+ 
+.container {
+	width: 600px
+	padding: 12px;
+	margin: 20px 400px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+	width: 300px;
+	margin-right: 0px;
+	border-right: 7px;
+	padding-right: 0px;
+	}
+}
+
+@media (max-width: 300px) {
+  .container {
+	width: 200px;
+	margin-right: 0px;
+	border-right: 0px;
+	padding-right: 0px;
+	}
+}
+
+.card-white {
+	background-color: rgb(238, 185, 119);
+	padding: 48px;
+	box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
+	margin: 60px 40px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: blue;
+	color: rgb(213, 153, 78);
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline i {
+	font-size: 20px;
+	color: purple;
+}
+
+.list-inline i:hover {
+	color: black;
+
+}
+/* Design adjustments using id (1% of design remaining)*/ 
+#introduction p {
+	margin-bottom: 40px;
+
+
